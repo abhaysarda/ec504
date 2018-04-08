@@ -17,6 +17,6 @@ c = "Who was the last pharaoh of Egypt",
 
 the output would look as follows-
 
-0.7450980392156863 0.29411764705882354 0.3333333333333333
+>0.7450980392156863 0.29411764705882354 0.3333333333333333
 
 This indicates the higher measure of similarity between sentences a and b as compared to (a,c) and (b,c).
