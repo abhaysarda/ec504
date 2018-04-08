@@ -1,10 +1,11 @@
 # ec504
 Adv. Data Structures and Algorithms Project on LSH and KD-trees
 
-Using the LSH_minhash_Jaccard_Shruthi.py to find percentage similarity between two documents:
+# Using the LSH_minhash_Jaccard_Shruthi.py to find percentage similarity between two documents:
 
 Variables a,b,c are used to store the contents of the documents. The contents can be changed/updated. Run 
-#python3 LSH_minhash_Jaccard_Shruthi.py 
+
+>python3 LSH_minhash_Jaccard_Shruthi.py 
 
 The output will be a percentage measure of the similarity between each pair of documents.
 
