@@ -5,7 +5,7 @@ c = list("Who was the last pharaoh of Egypt".split())
 minHash_a = []
 minHash_b = []
 minHash_c = []
-iteration = 5
+iteration = 50
 def preProcess(a,b,c):
     num = 0
     word = {}
