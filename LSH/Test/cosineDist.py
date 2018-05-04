@@ -48,6 +48,7 @@ for i in range(run):
 
     sig1 = hashValue(point1, planes)
     sig2 = hashValue(point2, planes)
+    print("sig1: ", sig1)
     #sig3 = hashValue(point3, planes)
 
     angle = angleCalc(point1,point2)

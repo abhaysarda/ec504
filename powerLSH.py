@@ -67,14 +67,16 @@ def MinHash(col_a,col_b,col_c):
 
 
 def Jaccard(a,b):
-    same = 0
+    same = 0.0
     for i in range(0, len(a)):
         if a[i] == b[i]:
-            same+=1
+            same=same+1
     return same/len(a)
 
 
 preProcess(a,b,c)
 
-print(minHash_a, minHash_b, minHash_c)
-print(Jaccard(minHash_a,minHash_b), Jaccard(minHash_a,minHash_c), Jaccard(minHash_b, minHash_c))
+print(minHash_a)
+print(minHash_b)
+print(minHash_c)
+print(Jaccard(minHash_a,minHash_b),Jaccard(minHash_a,minHash_c), Jaccard(minHash_b, minHash_c))
