@@ -1,22 +1,22 @@
 # ec504
-Adv. Data Structures and Algorithms Project on LSH and KD-trees
+# Adv. Data Structures and Algorithms Project on LSH and KD-trees
 
-### Using the LSH_minhash_Jaccard_Shruthi.py to find percentage similarity between two documents:
+This project involves developing and testing LSH and KD-tree implementations from literature and popular applications.
 
-Variables a,b,c are used to store the contents of the documents. The contents can be changed/updated. Run 
+The problem that we are seeking to apply this to is applying the same to weather data to forecast power outages. The corresponding data files and final implementation(yet to be started) are in their respectively named folders.
 
-``python3 LSH_minhash_Jaccard_Shruthi.py`` 
 
-The output will be a percentage measure of the similarity between each pair of documents.
+## Main Code:
+#### Locality Sensitive Hashing
+The LSH implementations are located inside "LSH/Main Implementations" folder.
 
-For the sample sentences:
+The cosine distance implementation of LSH is called "LSH cosine.ipynb".
 
-a = "Who was the first king of Poland"
-b = "Who was the first ruler of Poland"
-c = "Who was the last pharaoh of Egypt",
+The range based implementation of LSH is called "LSH Bins.ipynb".
 
-the output would look as follows-
+Open both of the files with jupyter notebook to run the code. 
 
->0.7450980392156863 0.29411764705882354 0.3333333333333333
-
-This indicates the higher measure of similarity between sentences a and b as compared to (a,c) and (b,c).
+The following libraries must be installed for the code to function properly:
+                     
+    pip install numpy, scipy, scikit-learn, seaborn
+  
