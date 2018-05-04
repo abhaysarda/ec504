@@ -16,3 +16,7 @@ The range based implementation of LSH is called "LSH Bins.ipynb".
 
 Open both of the files with jupyter notebook to run the code. 
 
+The following libraries must be installed for the code to function properly:
+                     
+    pip install numpy, scipy, scikit-learn, seaborn
+  
