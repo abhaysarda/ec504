@@ -7,7 +7,7 @@ The problem that we are seeking to apply this to is applying the same to weather
 
 
 ## Main Code:
-#### Locality Sesnitive Hashing
+#### Locality Sensitive Hashing
 The LSH implementations are located inside "LSH/Main Implementations" folder.
 
 The cosine distance implementation of LSH is called "LSH cosine.ipynb".
