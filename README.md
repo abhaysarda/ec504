@@ -6,17 +6,23 @@ This project involves developing and testing LSH and KD-tree implementations fro
 The problem that we are seeking to apply this to is applying the same to weather data to forecast power outages. The corresponding data files and final implementation(yet to be started) are in their respectively named folders.
 
 
-## Main Code:
-#### Locality Sensitive Hashing
-The LSH implementations are located inside "LSH/Main Implementations" folder.
 
-The cosine distance implementation of LSH is called "LSH cosine.ipynb".
+#Running the code yourself
 
-The range based implementation of LSH is called "LSH Bins.ipynb".
+The final project is inside the Final Implementation folder. There are three parts to the project: data analysis, Locality Sensitive Hashing and KD-trees
 
-Open both of the files with jupyter notebook to run the code. 
+#Data Analysis
+The Data Analysis folder takes in 8 years of data from Michigan and analyzes it. The final data is outputted as a csv file.
 
-The following libraries must be installed for the code to function properly:
-                     
-    pip install numpy, scipy, scikit-learn, seaborn
-  
+#Locality Sensitive Hashing
+The two different LSH implementations can be run from the jupyter notebooks
+
+#KD-trees
+The two different KD-tree implementations are in two separate folder. Simply run the jupyter notebooks.
+
+As long as you have anaconda installed, the notebooks should run perfectly!
+
+#Accuracy
+kNN: 92.18%
+LSH: 95.6%
+KD-trees: 89%
