@@ -1,1 +1,1 @@
-The different KD-tree implementations that we tested out.
+Custom KD-tree implementation using 6 dimensions
