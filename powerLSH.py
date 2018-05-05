@@ -1,25 +1,3 @@
-"""
-Using the LSH_minhash_Jaccard_Shruthi.py to find percentage similarity between two documents:
-
-Variables a,b,c are used to store the contents of the documents. The contents can be changed/updated. Run
-
-``python3 LSH_minhash_Jaccard_Shruthi.py``
-
-The output will be a percentage measure of the similarity between each pair of documents.
-
-For the sample sentences:
-
-a = "Who was the first king of Poland"
-b = "Who was the first ruler of Poland"
-c = "Who was the last pharaoh of Egypt",
-
-the output would look as follows-
-
->0.7450980392156863 0.29411764705882354 0.3333333333333333
-
-This indicates the higher measure of similarity between sentences a and b as compared to (a,c) and (b,c).
-
-"""
 import random
 a = list("Who was the first king of Poland".split())
 b = list("Who was the first ruler of Poland".split())
@@ -89,14 +67,16 @@ def MinHash(col_a,col_b,col_c):
 
 
 def Jaccard(a,b):
-    same = 0
+    same = 0.0
     for i in range(0, len(a)):
         if a[i] == b[i]:
-            same+=1
+            same=same+1
     return same/len(a)
 
 
 preProcess(a,b,c)
 
-print(minHash_a, minHash_b, minHash_c)
-print(Jaccard(minHash_a,minHash_b), Jaccard(minHash_a,minHash_c), Jaccard(minHash_b, minHash_c))
+print(minHash_a)
+print(minHash_b)
+print(minHash_c)
+print(Jaccard(minHash_a,minHash_b),Jaccard(minHash_a,minHash_c), Jaccard(minHash_b, minHash_c))
